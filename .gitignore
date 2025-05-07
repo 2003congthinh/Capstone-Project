@@ -1,2 +1,6 @@
 CIC-IDS/
 Supplementary Materials/
+X_train.joblib
+X_val.joblib
+Y_train.joblib
+Y_val.joblib
