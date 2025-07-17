@@ -1,0 +1,12 @@
+CIC-IDS/
+Supplementary Materials/
+X_train.joblib
+X_val.joblib
+Y_train.joblib
+Y_val.joblib
+CNN_model_1.keras
+CNN_model_2.h5
+CNN_model.keras
+label_encoder.pkl
+random_forest_model.pkl
+lightgbm_model.pkl

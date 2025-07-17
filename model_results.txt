@@ -1,0 +1,50 @@
+- NEURAL NETWORK
+accuracy: 0.8104 - loss: 0.4489 - val_accuracy: 0.8158 - val_loss: 0.4378
+
+- RANDOM FOREST
+              precision    recall  f1-score   support
+
+      BENIGN       0.81      0.82      0.81    281582
+ Brute_Force       0.95      0.98      0.97    280774
+        DDoS       0.88      0.69      0.77    280919
+         DoS       0.75      0.90      0.82    280606
+       Mirai       1.00      1.00      1.00    281286
+       Recon       0.83      0.77      0.80    281156
+    Spoofing       0.95      0.89      0.92    280725
+   Web_based       0.88      0.96      0.92    280638
+
+    accuracy                           0.88   2247686
+   macro avg       0.88      0.88      0.88   2247686
+weighted avg       0.88      0.88      0.88   2247686
+
+- LOGISTIC REGRESSION 
+              precision    recall  f1-score   support
+
+      BENIGN       0.47      0.56      0.51    281262
+ Brute_Force       0.77      0.48      0.59    280980
+        DDoS       0.87      0.60      0.71    280918
+         DoS       0.69      0.91      0.79    280575
+       Mirai       1.00      1.00      1.00    281617
+       Recon       0.57      0.51      0.54    280827
+    Spoofing       0.46      0.56      0.50    281260
+   Web_based       0.42      0.45      0.44    280255
+
+    accuracy                           0.63   2247694
+   macro avg       0.66      0.63      0.63   2247694
+weighted avg       0.66      0.63      0.63   2247694
+
+- LightGBM
+              precision    recall  f1-score   support
+
+      BENIGN       0.87      0.87      0.87    281582
+ Brute_Force       0.99      1.00      0.99    280774
+        DDoS       0.86      0.72      0.78    280919
+         DoS       0.76      0.88      0.81    280606
+       Mirai       1.00      1.00      1.00    281286
+       Recon       0.88      0.87      0.87    281156
+    Spoofing       0.97      0.93      0.95    280725
+   Web_based       0.96      0.99      0.97    280638
+
+    accuracy                           0.91   2247686
+   macro avg       0.91      0.91      0.91   2247686
+weighted avg       0.91      0.91      0.91   2247686
