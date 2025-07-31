@@ -1,0 +1,325 @@
+### GROUPED LABELS
+- log #1:
+n_estimators=100,       
+max_depth=20,           
+min_samples_split=50,   
+min_samples_leaf=20,    
+max_features='sqrt',    
+n_jobs=-1,              
+#verbose=1,              
+random_state=42
+
+              precision    recall  f1-score   support
+
+      BENIGN       0.75      0.79      0.77    281582
+ Brute_Force       0.90      0.89      0.89    280774
+        DDoS       0.88      0.68      0.77    280919
+         DoS       0.74      0.91      0.81    280606
+       Mirai       1.00      1.00      1.00    281286
+       Recon       0.78      0.69      0.73    281156
+    Spoofing       0.94      0.88      0.91    280725
+   Web_based       0.75      0.86      0.80    280638
+
+    accuracy                           0.84   2247686
+   macro avg       0.84      0.84      0.84   2247686
+weighted avg       0.84      0.84      0.84   2247686
+
+
+- log #2:
+n_estimators=100,       
+max_depth=20,           
+min_samples_split=50,   
+min_samples_leaf=20,    
+max_features='sqrt',    
+n_jobs=-1,              
+#verbose=1,              
+random_state=42
+
+              precision    recall  f1-score   support
+
+      BENIGN       0.76      0.79      0.77    281582
+ Brute_Force       0.90      0.89      0.89    280774
+        DDoS       0.88      0.68      0.76    280919
+         DoS       0.74      0.91      0.81    280606
+       Mirai       1.00      1.00      1.00    281286
+       Recon       0.78      0.69      0.73    281156
+    Spoofing       0.94      0.88      0.91    280725
+   Web_based       0.75      0.86      0.80    280638
+
+    accuracy                           0.84   2247686
+   macro avg       0.84      0.84      0.84   2247686
+weighted avg       0.84      0.84      0.84   2247686
+
+- log #3:
+n_estimators=400,       
+max_depth=15,           
+min_samples_split=30,   
+min_samples_leaf=20,    
+max_features='sqrt',    
+n_jobs=-1,              
+#verbose=1,              
+random_state=42
+
+              precision    recall  f1-score   support
+
+      BENIGN       0.68      0.77      0.73    281582
+ Brute_Force       0.83      0.76      0.79    280774
+        DDoS       0.90      0.64      0.75    280919
+         DoS       0.72      0.93      0.81    280606
+       Mirai       1.00      1.00      1.00    281286
+       Recon       0.70      0.64      0.67    281156
+    Spoofing       0.92      0.87      0.89    280725
+   Web_based       0.65      0.72      0.68    280638
+
+    accuracy                           0.79   2247686
+   macro avg       0.80      0.79      0.79   2247686
+weighted avg       0.80      0.79      0.79   2247686
+
+- log #4:
+n_estimators=400,       
+max_depth=20,           
+min_samples_split=30,   
+min_samples_leaf=20,    
+max_features='sqrt',    
+n_jobs=-1,              
+#verbose=1,              
+random_state=42
+
+              precision    recall  f1-score   support
+
+      BENIGN       0.76      0.79      0.77    281582
+ Brute_Force       0.90      0.89      0.89    280774
+        DDoS       0.88      0.68      0.76    280919
+         DoS       0.74      0.91      0.81    280606
+       Mirai       1.00      1.00      1.00    281286
+       Recon       0.78      0.69      0.73    281156
+    Spoofing       0.95      0.88      0.91    280725
+   Web_based       0.75      0.86      0.81    280638
+
+    accuracy                           0.84   2247686
+   macro avg       0.84      0.84      0.84   2247686
+weighted avg       0.84      0.84      0.84   2247686
+
+- log #5:
+n_estimators=400,       
+max_depth=40,           
+min_samples_split=30,   
+min_samples_leaf=20,    
+max_features='sqrt',    
+n_jobs=-1,              
+#verbose=1,              
+random_state=42
+
+              precision    recall  f1-score   support
+
+      BENIGN       0.81      0.82      0.81    281582
+ Brute_Force       0.95      0.98      0.97    280774
+        DDoS       0.88      0.69      0.77    280919
+         DoS       0.75      0.90      0.82    280606
+       Mirai       1.00      1.00      1.00    281286
+       Recon       0.83      0.77      0.80    281156
+    Spoofing       0.95      0.89      0.92    280725
+   Web_based       0.88      0.96      0.92    280638
+
+    accuracy                           0.88   2247686
+   macro avg       0.88      0.88      0.88   2247686
+weighted avg       0.88      0.88      0.88   2247686
+
+- log #6:
+n_estimators=400,       
+max_depth=50,           
+min_samples_split=30,   
+min_samples_leaf=20,    
+max_features='sqrt',    
+n_jobs=-1,              
+#verbose=1,              
+random_state=42
+
+              precision    recall  f1-score   support
+
+      BENIGN       0.81      0.82      0.81    281582
+ Brute_Force       0.95      0.98      0.97    280774
+        DDoS       0.88      0.69      0.77    280919
+         DoS       0.75      0.90      0.82    280606
+       Mirai       1.00      1.00      1.00    281286
+       Recon       0.83      0.77      0.80    281156
+    Spoofing       0.95      0.89      0.92    280725
+   Web_based       0.88      0.96      0.92    280638
+
+    accuracy                           0.88   2247686
+   macro avg       0.88      0.88      0.88   2247686
+weighted avg       0.88      0.88      0.88   2247686
+
+- log #7:
+n_estimators=400,       
+max_depth=50,           
+min_samples_split=50,   
+min_samples_leaf=20,    
+max_features='sqrt',    
+n_jobs=-1,              
+#verbose=1,              
+random_state=42
+
+              precision    recall  f1-score   support
+
+      BENIGN       0.81      0.82      0.81    281582
+ Brute_Force       0.95      0.98      0.96    280774
+        DDoS       0.88      0.69      0.77    280919
+         DoS       0.75      0.90      0.82    280606
+       Mirai       1.00      1.00      1.00    281286
+       Recon       0.83      0.76      0.79    281156
+    Spoofing       0.95      0.89      0.92    280725
+   Web_based       0.87      0.96      0.91    280638
+
+    accuracy                           0.87   2247686
+   macro avg       0.88      0.88      0.87   2247686
+weighted avg       0.88      0.87      0.87   2247686
+
+- log #8:
+n_estimators=400,       
+max_depth=50,           
+min_samples_split=30,   
+min_samples_leaf=30,    
+max_features='sqrt',    
+n_jobs=-1,              
+#verbose=1,              
+random_state=42
+
+              precision    recall  f1-score   support
+
+      BENIGN       0.80      0.81      0.81    281582
+ Brute_Force       0.94      0.98      0.96    280774
+        DDoS       0.88      0.69      0.77    280919
+         DoS       0.74      0.90      0.82    280606
+       Mirai       1.00      1.00      1.00    281286
+       Recon       0.83      0.74      0.78    281156
+    Spoofing       0.95      0.89      0.92    280725
+   Web_based       0.85      0.94      0.90    280638
+
+    accuracy                           0.87   2247686
+   macro avg       0.87      0.87      0.87   2247686
+weighted avg       0.87      0.87      0.87   2247686
+
+- log #9:
+n_estimators=400,       
+max_depth=50,           
+min_samples_split=20,   
+min_samples_leaf=20,    
+max_features='sqrt',    
+n_jobs=-1,              
+#verbose=1,              
+random_state=42
+
+              precision    recall  f1-score   support
+
+      BENIGN       0.81      0.82      0.81    281582
+ Brute_Force       0.95      0.98      0.97    280774
+        DDoS       0.88      0.69      0.77    280919
+         DoS       0.75      0.90      0.82    280606
+       Mirai       1.00      1.00      1.00    281286
+       Recon       0.83      0.77      0.80    281156
+    Spoofing       0.95      0.89      0.92    280725
+   Web_based       0.88      0.96      0.92    280638
+
+    accuracy                           0.88   2247686
+   macro avg       0.88      0.88      0.88   2247686
+weighted avg       0.88      0.88      0.88   2247686
+
+### From this point backward, the model is severely overfit because it is too complex
+
+- log #10:
+n_estimators=100,       
+max_depth=20,           
+min_samples_split=10,   
+min_samples_leaf=10,    
+max_features='sqrt',    
+n_jobs=-1,              
+#verbose=1,              
+random_state=42
+
+              precision    recall  f1-score   support
+
+      BENIGN       0.76      0.79      0.77    281582
+ Brute_Force       0.89      0.91      0.90    280774
+        DDoS       0.84      0.63      0.72    280919
+         DoS       0.70      0.88      0.78    280606
+       Mirai       1.00      1.00      1.00    281286
+       Recon       0.77      0.68      0.72    281156
+    Spoofing       0.95      0.88      0.91    280725
+   Web_based       0.77      0.86      0.81    280638
+
+    accuracy                           0.83   2247686
+   macro avg       0.83      0.83      0.83   2247686
+weighted avg       0.83      0.83      0.83   2247686
+
+- log #11:
+n_estimators=100,       
+max_depth=15,           
+min_samples_split=20,   
+min_samples_leaf=20,    
+max_features='sqrt',    
+n_jobs=-1,              
+#verbose=1,              
+random_state=42
+
+              precision    recall  f1-score   support
+
+      BENIGN       0.68      0.76      0.72    281582
+ Brute_Force       0.82      0.73      0.77    280774
+        DDoS       0.86      0.60      0.70    280919
+         DoS       0.69      0.90      0.78    280606
+       Mirai       1.00      1.00      1.00    281286
+       Recon       0.69      0.61      0.64    281156
+    Spoofing       0.92      0.87      0.89    280725
+   Web_based       0.63      0.73      0.68    280638
+
+    accuracy                           0.77   2247686
+   macro avg       0.78      0.77      0.77   2247686
+weighted avg       0.78      0.77      0.77   2247686
+
+- log #12:
+n_estimators=70,       
+max_depth=15,           
+min_samples_split=10,   
+min_samples_leaf=10,    
+max_features='sqrt',    
+n_jobs=-1,              
+#verbose=1,              
+random_state=42
+
+              precision    recall  f1-score   support
+
+      BENIGN       0.67      0.76      0.72    281582
+ Brute_Force       0.82      0.73      0.77    280774
+        DDoS       0.86      0.60      0.70    280919
+         DoS       0.69      0.90      0.78    280606
+       Mirai       1.00      1.00      1.00    281286
+       Recon       0.69      0.61      0.65    281156
+    Spoofing       0.92      0.87      0.89    280725
+   Web_based       0.63      0.73      0.68    280638
+
+    accuracy                           0.77   2247686
+   macro avg       0.78      0.77      0.77   2247686
+weighted avg       0.78      0.77      0.77   2247686
+
+              precision    recall  f1-score   support
+
+      BENIGN       0.37      0.68      0.48    349259
+ Brute_Force       0.37      0.53      0.43    349259
+        DDoS       1.00      0.08      0.15    349259
+         DoS       0.76      0.07      0.13    349259
+       Mirai       1.00      0.98      0.99    349259
+       Recon       0.19      0.61      0.29    349259
+    Spoofing       1.00      0.30      0.46    349259
+   Web_based       0.77      0.04      0.07    349259
+
+    accuracy                           0.41   2794072
+   macro avg       0.68      0.41      0.38   2794072
+weighted avg       0.68      0.41      0.38   2794072
+
+
+
+
+
+
+### SEPARATED LABELS
